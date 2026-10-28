@@ -20,3 +20,4 @@ public class Ejemplo04 {
         System.out.print(nombreEstudiante);
     }
 }
+// El System.out.print me sirve para presentar información en una sola linea seguida sin hacer saltos de linea. :)

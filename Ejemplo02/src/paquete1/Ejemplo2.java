@@ -45,3 +45,16 @@ public class Ejemplo2 {
     }
     
 }
+
+
+
+// Se usa la entrada.nextline() despues de hacer una entrada numerica,
+//ya que al colocar un netx.double() el programa automaticamente coloca un salto 
+// de linea "\n" el cual es leido por el entrada.nextline provocando un error
+// Es decir. Colocamos dos next.line seguidos depsues de un next.double/next.int
+
+//         System.out.println("Ingrese nota de asignatura 1");
+//         notaAsignatura1 = entrada.nextDouble();
+//         System.out.println("Ingrese nombre de asignatura 2");
+//         entrada.nextLine(); // limpieza de buffer
+//         nombreAsignatura2 = entrada.nextLine();
